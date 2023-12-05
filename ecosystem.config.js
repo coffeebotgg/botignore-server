@@ -3,7 +3,7 @@ module.exports = {
 		{
 			name: "Botignore-Server",
 			script: "./dist/src/apps/server.js",
-			instances: 1,
+			instances: "max",
 			autorestart: true,
 			watch: true,
 			max_memory_restart: "1G",
